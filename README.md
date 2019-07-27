@@ -28,7 +28,9 @@ is_similarity, value = get_html_similarity(html_doc1, html_doc2)
 判断方法
 -----------
 
-参考：[李景阳, 张波. 网页结构相似性确定方法及装置:.](http://cprs.patentstar.com.cn/Search/Detail?ANE=9HCC7BGA7AHACGEA7GAA8BHA5ADA9FGF8CBA9EDA9BDC9FCG)
+根据网页的ＤＯＭ树确定网页的模板特征向量，对模板特征向量计算网页结构相似性。
+
+详细参考：[李景阳, 张波. 网页结构相似性确定方法及装置:.](http://cprs.patentstar.com.cn/Search/Detail?ANE=9HCC7BGA7AHACGEA7GAA8BHA5ADA9FGF8CBA9EDA9BDC9FCG)
 
 原理参考上述专利文章，对其判断相似性部分进行简单实现。
 
